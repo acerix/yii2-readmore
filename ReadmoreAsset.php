@@ -9,4 +9,8 @@ class ReadmoreAsset extends \yii\web\AssetBundle
     public $js = [
         'readmore.js',
     ];
+    
+    public $depends = [
+        'yii\web\JqueryAsset',
+    ];
 }
