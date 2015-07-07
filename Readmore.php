@@ -2,11 +2,15 @@
 
 namespace filsh\yii2\readmore;
 
+use yii\base\Widget;
 use yii\helpers\Json;
+use yii\helpers\Html;
 
-class Readmore extends yii\base\Widget
+class Readmore extends Widget
 {
     public $body;
+    
+    public $options = [];
     
     public $clientOptions = [];
     
@@ -40,6 +44,6 @@ class Readmore extends yii\base\Widget
         $view = $this->getView();
         ReadmoreAsset::register($view);
 
-        $view->registerJs('jQuery("#' . $this->options['id'] . '").readmore(' . Json::encode($this->clientOptions) . ')');
+        $view->registerJs('jQuery("#' . $this->options['id'] . '").readmore(' . Json::encode($this->clientOptions) . ');');
     }
 }
