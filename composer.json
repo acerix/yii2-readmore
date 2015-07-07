@@ -1,0 +1,28 @@
+{
+    "name": "filsh/yii2-readmore",
+    "description": "Readmore widget for yii2 framework",
+    "keywords": ["yii", "module"],
+    "homepage": "https://github.com/filsh/yii2-readmore",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "email": "imaliy.filsh@gmail.com",
+        "source": "https://github.com/filsh/yii2-readmore"
+    },
+    "authors": [
+        {
+            "name": "Igor Maliy",
+            "email": "imaliy.filsh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/Readmore.js": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "filsh\\readmore\\": ""
+        }
+    }
+}
