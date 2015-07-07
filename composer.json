@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "filsh\\readmore\\": ""
+            "filsh\\yii2\\readmore\\": ""
         }
     }
 }
