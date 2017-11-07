@@ -1,6 +1,6 @@
 <?php
 
-namespace filsh\yii2\readmore;
+namespace acerix\yii2\readmore;
 
 use yii\base\Widget;
 use yii\helpers\Json;
