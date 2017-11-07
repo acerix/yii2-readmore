@@ -1,6 +1,6 @@
 <?php
 
-namespace filsh\yii2\readmore;
+namespace acerix\yii2\readmore;
 
 class ReadmoreAsset extends \yii\web\AssetBundle
 {
