@@ -17,6 +17,11 @@ Usage
 Basic example:
 ```php
 echo \acerix\yii2\readmore\Readmore::widget([
-    'body' => file_get_contents('http://loripsum.net/api/7')
+    'body' => file_get_contents('http://loripsum.net/api/7'),
+    'clientOptions' => [
+        'speed' => 69, // length of animation in milliseconds
+        'moreLink' => '<a href="#">'._('Read more').'</a>',
+        'lessLink' => '<a href="#">'._('Close').'</a>',
+    ]
 ]);
 ```
